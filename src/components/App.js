@@ -1,7 +1,9 @@
-import Board from "./Board";
+import { useState } from "react";
+
+import Game from "./Game";
 
 const App = () => {
-  return <Board />;
+  return <Game />;
 };
 
 export default App;
